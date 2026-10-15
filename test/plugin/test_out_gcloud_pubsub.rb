@@ -114,8 +114,7 @@ class GcloudPubSubOutputTest < Test::Unit::TestCase
       ])
 
       publish_called = false
-      batch_mock = mock!
-      @publisher.publish.once { |&block| publish_called = true; block.call(batch_mock) }
+      @publisher.publish.once { publish_called = true }
       @pubsub_mock.publisher("topic-test").once do
         raise Google::Cloud::NotFoundError.new('TEST')
       end
