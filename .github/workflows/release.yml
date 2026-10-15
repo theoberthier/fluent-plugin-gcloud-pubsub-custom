@@ -27,9 +27,9 @@ jobs:
         run: bundle exec rake test
 
       - name: Build gem
-        run: gem build fluent-plugin-gcloud-pubsub-custom.gemspec
+        run: gem build fluent-plugin-gcloud-pubsub-universe-domain.gemspec
 
       - name: Publish gem to RubyGems.org
         env:
           GEM_HOST_API_KEY: ${{ secrets.RUBYGEMS_API_KEY }}
-        run: gem push fluent-plugin-gcloud-pubsub-custom-*.gem
+        run: gem push fluent-plugin-gcloud-pubsub-universe-domain-*.gem

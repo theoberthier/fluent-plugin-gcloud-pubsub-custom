@@ -2,7 +2,7 @@
 $:.push File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.name        = "fluent-plugin-gcloud-pubsub-custom"
+  gem.name        = "fluent-plugin-gcloud-pubsub-universe-domain"
   gem.description = "Google Cloud Pub/Sub input/output plugin for Fluentd event collector with universe_domain parameter"
   gem.license     = "MIT"
   gem.homepage    = "https://github.com/theoberthier/fluent-plugin-gcloud-pubsub-custom"

@@ -1,7 +1,7 @@
-# fluent-plugin-gcloud-pubsub-custom
+# fluent-plugin-gcloud-pubsub-universe-domain
 
-![Test](https://github.com/mia-0032/fluent-plugin-gcloud-pubsub-custom/workflows/Test/badge.svg)
-[![Gem Version](https://badge.fury.io/rb/fluent-plugin-gcloud-pubsub-custom.svg)](http://badge.fury.io/rb/fluent-plugin-gcloud-pubsub-custom)
+![Test](https://github.com/theoberthier/fluent-plugin-gcloud-pubsub-custom/workflows/Test/badge.svg)
+[![Gem Version](https://badge.fury.io/rb/fluent-plugin-gcloud-pubsub-universe-domain.svg)](http://badge.fury.io/rb/fluent-plugin-gcloud-pubsub-universe-domain)
 
 This plugin is forked from https://github.com/mdoi/fluent-plugin-gcloud-pubsub
 
@@ -25,7 +25,7 @@ Also, when using input plugin, you need to grant Pub/Sub Subscriber and Pub/Sub 
 
 ## Requirements
 
-| fluent-plugin-gcloud-pubsub-custom | fluentd | ruby |
+| fluent-plugin-gcloud-pubsub-universe-domain | fluentd | ruby |
 |------------------------|---------|------|
 | >= 2.0.0 | >= v0.14.0 | >= 3.2 |
 | >= 1.0.0 | >= v0.14.0 | >= 2.1 |
@@ -36,7 +36,7 @@ Also, when using input plugin, you need to grant Pub/Sub Subscriber and Pub/Sub 
 Install by gem:
 
 ```shell
-$ gem install fluent-plugin-gcloud-pubsub-custom
+$ gem install fluent-plugin-gcloud-pubsub-universe-domain
 ```
 
 **Caution**
